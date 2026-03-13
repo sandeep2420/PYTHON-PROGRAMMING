@@ -1,0 +1,11 @@
+s="Python"
+for char in s:
+    print(char)
+
+    Output:    
+P
+y
+t
+h
+o
+n
