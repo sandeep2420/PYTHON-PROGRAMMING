@@ -1,0 +1,13 @@
+# Creating a tuple
+fruits = ("apple", "banana", "mango")
+
+# Accessing elements
+print(fruits[0])   # first element
+print(fruits[1])   # second element
+
+# Loop through a tuple
+for fruit in fruits:
+    print(fruit)
+
+# Length of tuple
+print("Number of fruits:", len(fruits))
