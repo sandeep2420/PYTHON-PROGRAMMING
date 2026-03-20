@@ -1,0 +1,33 @@
+# Creating a dictionary
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "course": "Computer Science",
+    "marks": 85
+}
+
+# Accessing values
+print("Name:", student["name"])
+print("Age:", student.get("age"))
+
+# Adding a new key-value pair
+student["grade"] = "A"
+
+# Updating a value
+student["marks"] = 90
+
+# Removing an item
+student.pop("age")
+
+# Looping through dictionary (keys and values)
+print("\nStudent Details:")
+for key, value in student.items():
+    print(key, ":", value)
+
+# Checking if a key exists
+if "course" in student:
+    print("\nCourse is present in the dictionary")
+
+# Getting all keys and values separately
+print("\nKeys:", student.keys())
+print("Values:", student.values())
